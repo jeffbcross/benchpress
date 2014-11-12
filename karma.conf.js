@@ -20,6 +20,7 @@ module.exports = function(config) {
       'lib/HtmlReport.js',
       'lib/Measure.js',
       'lib/Statistics.js',
+      'lib/Utils.js',
       'lib/Variables.js',
       'lib/bp.spec.js',
       'node_modules/underscore/underscore.js'
