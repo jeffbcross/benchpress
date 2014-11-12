@@ -15,6 +15,7 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       'lib/bp.js',
+      'lib/Runner.js',
       'lib/bp.spec.js',
       'node_modules/underscore/underscore.js'
     ],
