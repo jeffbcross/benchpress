@@ -16,6 +16,7 @@ module.exports = function(config) {
     files: [
       'lib/bp.js',
       'lib/Runner.js',
+      'lib/Document.js',
       'lib/bp.spec.js',
       'node_modules/underscore/underscore.js'
     ],
