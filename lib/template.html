@@ -5,8 +5,7 @@
     <script src="underscore-min.js"></script>
     <script src="bp.js"></script>
     <script>
-      bp.scripts = %%SCRIPTS%%;
-      bp.modules = %%MODULES%%;
+      bp.scripts.push.apply(bp.scripts, %%SCRIPTS%%);
     </script>
 
     <link rel="stylesheet" href="bootstrap.min.css">
